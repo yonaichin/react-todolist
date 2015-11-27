@@ -54,6 +54,7 @@ var TodoInputField = React.createClass({
       var inputValue = ReactDOM.findDOMNode(this).value;
       var timestamp = ' @ ' + (new Date()).toLocaleString()
       this.props.addTodoHandler(inputValue + timestamp);
+      ReactDOM.findDOMNode(this).value = '';
     }
   },
   render:function(){
