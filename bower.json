@@ -1,0 +1,22 @@
+{
+  "name": "react-todolist",
+  "authors": [
+    "Olly.W <yonaichin@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "~3.10.1",
+    "react": "~0.14.3"
+  }
+}
